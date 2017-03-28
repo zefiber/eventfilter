@@ -1,4 +1,4 @@
-#Data sorting and filtering
+# Data sorting and filtering
 
 Read the 3 input files reports.json, reports.csv, reports.xml and output a combined CSV file with the following characteristics:
 
@@ -10,6 +10,6 @@ Additionally, the application should print a summary showing the number of recor
 
 Please provide source, documentation on how to run the program and an explanation on why you chose the tools/libraries used.
 
-##Submission
+## Submission
 
 You may fork this repo, commit your work and let us know of your project's location, or you may email us your project files in a zip file.
