@@ -27,7 +27,7 @@ solution/summary.csv
 
 # Why I chose the tools/libraries
 As requested,
-it is very convenient to use the library `pandas` to merge, filter, sort the data.
+it is very convenient to use the library `pandas` to merge, filter and sort the data.
 As the csv and json files can be directly parsed into `DataFrame` of `pandas`.
 
 I am using the library Element Tree XML API to parse the xml file and transform it
