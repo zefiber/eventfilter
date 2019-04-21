@@ -5,7 +5,7 @@ Python over 3.5
 
 # How to run the program
 
-cd to the installation path
+cd to the project installation path
 
 $python3 -m venv eventfilter_env
 
