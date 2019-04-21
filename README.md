@@ -7,6 +7,7 @@ Python over 3.5
 
 cd to the project installation path
 
+```
 $python3 -m venv eventfilter_env
 
 $source ~/.venv/eventfilter_env/bin/activate
@@ -16,9 +17,11 @@ $pip install -r requirements.txt
 $python setup.py install
 
 $python -m solution
+```
 
 Two files will be generated under solution folder.
 solution/result.csv
+
 solution/summary.csv
 
 # Why I chose the tools/libraries
