@@ -1,15 +1,31 @@
-# Data sorting and filtering
+# System Environment
+MacOS High Sierra Version 10.13.6 
+Python over 3.5
 
-Read the 3 input files reports.json, reports.csv, reports.xml and output a combined CSV file with the following characteristics:
+# How to run the program
 
-- The same column order and formatting as reports.csv
-- All report records with packets-serviced equal to zero should be excluded
-- records should be sorted by request-time in ascending order
+cd to the installation path
 
-Additionally, the application should print a summary showing the number of records in the output file associated with each service-guid.
+$python3 -m venv eventfilter_env
 
-Please provide source, documentation on how to run the program and an explanation on why you chose the tools/libraries used.
+$source ~/.venv/eventfilter_env/bin/activate
 
-## Submission
+$pip install -r requirements.txt
 
-You may fork this repo, commit your work and let us know of your project's location, or you may email us your project files in a zip file.
+$python setup.py install
+
+$python -m solution
+
+Two files will be generated under solution folder.
+solution/result.csv
+solution/summary.csv
+
+# Why I chose the tools/libraries
+According to the requirements,
+It is very convenient to use the library `pandas` to merge, filter, sort the data.
+As the csv and json files can be directly parsed into `DataFrame` of `pandas`.
+
+I am using the library Element Tree XML API to parse the xml file and transform it
+to the `DataFrame` of `pandas` as well.
+
+Using `pytz` to convert the time to the correct timezone. 
