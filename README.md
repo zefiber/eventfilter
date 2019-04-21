@@ -22,6 +22,7 @@ $python -m solution
 Two files will be generated under solution folder.
 
 solution/result.csv
+
 solution/summary.csv
 
 # Why I chose the tools/libraries
